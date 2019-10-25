@@ -1,3 +1,30 @@
-body {
-  font-family: sans-serif;
+.w3-green {
+  color: #fff !important;
+  background-color: #4caf50 !important;
+}
+.w3-light-grey {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+#myBar {
+  height: 24px;
+  width: 0%;
+}
+
+p {
+  text-align: center;
+}
+
+.box {
+  width: 60px;
+  height: 108px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 80px;
+}
+.row {
+  margin: 0 !important;
+}
+.b-bottom {
+  border: 2px solid #bdbdbd;
 }

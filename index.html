@@ -1,16 +1,46 @@
 <!DOCTYPE html>
+<!---->
 <html>
+  <head>
+    <title>Tic-Tac-Toe</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link href="src/styles.css" type="text/css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="src/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="center-align">
+        <h1>Tic Tac Toe</h1>
+      </div>
+    </header>
+    <div class="container z-depth-5">
+      <div class="row">
+        <!-- for padding-->
+        <div class="col s12"><p></p></div>
+      </div>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+      <div id="board" class="centered"></div>
 
-<body>
-	<div id="app"></div>
+      <div class="row">
+        <!-- for padding-->
+        <div class="col s12"><p></p></div>
+      </div>
 
-	<script src="src/index.js">
-	</script>
-</body>
-
+      <div class="container">
+        <div class="row">
+          <div class="progress" style="height:15px !important;">
+            <div id="myBar" class="determinate red" style="width:0%"></div>
+          </div>
+          <div class="col s12 flow-text">
+            <p id="myP">Time left <span id="demo">10</span> of 10 seconds</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
